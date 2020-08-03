@@ -1,6 +1,8 @@
 html, body {
   background-color: black;
   font-family: Verdana,  sans-serif;
+  margin: auto 40px;
+  
 }
 
 /* utility */
@@ -20,10 +22,26 @@ a.link {
     font-size: 16px;   
 }
 
+video {
+    border: none;
+}
+
 h2 {
     font-weight: 300;
     font-size: 42px;
     color: white;
+}
+
+img.camp {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+img.phone {
+    display: block;
+    margin: 20px auto; 
 }
 
 p {
